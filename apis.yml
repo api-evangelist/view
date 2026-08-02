@@ -1,8 +1,27 @@
 aid: view
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/view.png
 name: View
-description: 'View is a company surfaced as a portfolio company of softbank-vision-fund and added to the
-  API Evangelist network as a stub for enrichment. Sector: proptech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'View, Inc. is a smart-glass and smart-building technology company founded in 2007 and
+  headquartered in Milpitas, California, with manufacturing in Olive Branch, Mississippi. View makes
+  View Dynamic Glass, electrochromic architectural windows whose tint adjusts automatically to sunlight,
+  glare, and heat, alongside a connected Smart Building Platform in which each pane is individually
+  IP-addressable and app-controllable and layered with sensors and services such as SmartProtect (an
+  Azure IoT integration that alerts building managers when glass breaks). Backed by the SoftBank Vision
+  Fund, View went public via SPAC in 2021 and filed for Chapter 11 bankruptcy in 2024, transitioning
+  back to private ownership under its lenders. View exposes no public developer API surface; its GitHub
+  organization (viewinc) mirrors third-party C/C++ and IoT firmware libraries used internally rather
+  than first-party SDKs.'
 url: https://raw.githubusercontent.com/api-evangelist/view/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +31,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Proptech
+- Smart Glass
+- Smart Buildings
+- IoT
+- Electrochromic
+- Building Automation
+- Real Estate
 apis: []
+common:
+- type: Website
+  url: https://view.com
+- type: GitHubOrganization
+  url: https://github.com/viewinc
+- type: DomainSecurity
+  url: security/view-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
