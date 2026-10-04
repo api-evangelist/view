@@ -51,7 +51,7 @@ tags:
 - IoT
 - Electrochromic
 - Building Automation
-- Real-Estate
+- Real Estate
 tags_raw:
 - Company
 - Proptech
@@ -61,6 +61,7 @@ tags_raw:
 - Electrochromic
 - Building Automation
 - Real Estate
+- Real-Estate
 apis: []
 common:
 - type: Website
